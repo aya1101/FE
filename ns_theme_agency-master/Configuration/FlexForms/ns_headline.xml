@@ -1,0 +1,34 @@
+<T3DataStructure>
+    <sheets>
+        <sDEF>
+            <ROOT>
+                
+                    <sheetTitle>LLL:EXT:ns_theme_agency/Resources/Private/Language/locallang_flex.xlf:general.fields</sheetTitle>
+                
+                <type>array</type>
+                <el>
+                    <title>
+                        
+                            <label>LLL:EXT:ns_theme_agency/Resources/Private/Language/locallang_flex.xlf:general.title</label>
+                            <config>
+                                <type>input</type>
+                                <size>30</size>
+                                <eval>trim,required</eval>
+                            </config>
+                        
+                    </title>
+                    <subtitle>
+                        
+                            <label>LLL:EXT:ns_theme_agency/Resources/Private/Language/locallang_flex.xlf:general.subtitle</label>
+                            <config>
+                                <type>input</type>
+                                <size>30</size>
+                                <eval>trim</eval>
+                            </config>
+                        
+                    </subtitle>
+                </el>
+            </ROOT>
+        </sDEF>
+    </sheets>
+</T3DataStructure>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wikipedia Search</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="app">
+      <div id="search-view">
+        <header>
+          <h1>Wikipedia Search</h1>
+          <form id="search-form">
+            <div class="search-container">
+              <input
+                type="search"
+                id="search-input"
+                placeholder="Nhập ít nhất 3 ký tự..."
+                autocomplete="off"
+              />
+              <button type="submit">Tìm kiếm</button>
+              <div id="suggestions-box"></div>
+            </div>
+          </form>
+        </header>
+
+        <main id="search-results-container">
+          <div id="loader" class="loader hidden"></div>
+          <p id="error-message" class="error-message hidden"></p>
+          <div id="search-results-grid"></div>
+        </main>
+      </div>
+
+      <div id="article-view" class="hidden">
+        <nav>
+          <button id="back-to-results-btn">&larr; Quay lại kết quả</button>
+        </nav>
+        <div id="article-content"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
